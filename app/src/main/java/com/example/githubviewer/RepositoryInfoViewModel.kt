@@ -3,7 +3,7 @@ package com.example.githubviewer
 import androidx.lifecycle.LiveData
 
 class RepositoryInfoViewModel {
-    val state: LiveData<State>
+     val state: LiveData<State> = TODO()
 
     sealed interface State {
         object Loading : State
